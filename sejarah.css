@@ -1,0 +1,178 @@
+/* additional-styles.css */
+
+/* Style untuk latar belakang body */
+body {
+    background-color: #f8f6f6;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+/* Style untuk header */
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+/* Style untuk tombol Learn More */
+#learn-more button {
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 18px;
+    padding: 16px 24px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#learn-more button:hover {
+    background-color: #27ae60;
+}
+
+/* Style untuk bagian features */
+#features {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#features h2 {
+    color: #3498db;
+}
+
+#features ul {
+    color: #555;
+}
+
+/* Style untuk bagian contact form */
+#contact {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    color: #3498db;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#contact input,
+#contact button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact button {
+    background-color: #e74c3c;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #c0392b;
+}
+
+/* Style untuk footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style untuk responsive design */
+@media (max-width: 800px) {
+    #features,
+    #contact {
+        padding: 20px;
+    }
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #3776b6;
+    color: #ecf0f1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Gaya Heading */
+.container h1 {
+    color: #3d3535;
+    font-size: 36px;
+}
+
+.container p1{
+    color:#ffffff;
+    font-style: italic;
+    font-size: 15px;
+}
+/* Gaya Paragraf */
+.container p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Tautan */
+.container a {
+    color: #3498db;
+    text-decoration: none;
+    border-bottom: 2px solid #3498db;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.container a:hover {
+    color: #2980b9;
+    border-color: #2980b9;
+}
+
+/* Tombol */
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #c0392b;
+}
+
+/* Animasi */
+.container {
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: rotate(2deg);
+}
+
+/* Responsif */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+}
+

@@ -1,0 +1,96 @@
+/* styles.css */
+
+/* Tampilan jadul */
+body {
+    background-color: #f0eada; /* Warna latar belakang yang memberikan kesan retro */
+    font-family: 'Courier New', monospace; /* Monospace font untuk tampilan klasik */
+    color: #574c4f; /* Warna teks yang sesuai */
+}
+
+header {
+    background-color: #8e736b; /* Warna header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+#learn-more button {
+    background-color: #b18a8a; /* Warna tombol Learn More */
+    color: #fff;
+    font-size: 18px;
+    padding: 16px 24px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#learn-more button:hover {
+    background-color: #8e736b; /* Warna tombol yang lebih gelap saat hover */
+}
+
+#features {
+    background-color: #e1d5c9; /* Warna untuk bagian features */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+#features h2 {
+    color: #8e736b; /* Warna teks untuk judul features */
+}
+
+#features ul {
+    color: #574c4f; /* Warna teks untuk isi features */
+}
+
+#contact {
+    background-color: #e1d5c9; /* Warna untuk bagian contact */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+#contact h2 {
+    color: #8e736b; /* Warna teks untuk judul contact */
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#contact input,
+#contact button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #574c4f; /* Warna garis untuk input dan tombol */
+    border-radius: 4px;
+}
+
+#contact button {
+    background-color: #b18a8a; /* Warna tombol send */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #8e736b; /* Warna tombol yang lebih gelap saat hover */
+}
+
+footer {
+    background-color: #8e736b; /* Warna footer */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}

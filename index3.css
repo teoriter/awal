@@ -1,0 +1,95 @@
+/* styles.css */
+
+/* Tampilan untuk anak-anak */
+body {
+    background-color: #f8f8f8;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+header {
+    background-color: #FFD700; /* Warna kuning cerah */
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+#learn-more button {
+    background-color: #4CAF50; /* Warna hijau cerah */
+    color: #fff;
+    font-size: 18px;
+    padding: 16px 24px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#learn-more button:hover {
+    background-color: #45a049;
+}
+
+#features {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+#features h2 {
+    color: #FFD700; /* Warna kuning cerah */
+}
+
+#features ul {
+    color: #333;
+}
+
+#contact {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+#contact h2 {
+    color: #FFD700;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#contact input,
+#contact button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact button {
+    background-color: #FF4500; /* Warna oranye cerah */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #FF6347; /* Warna oranye lebih gelap */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
